@@ -1,7 +1,7 @@
 import whisper # Biblioteca de transcrição do áudio. Use pip install whisper para instalar no seu computador.
 import openai # Biblioteca de GPT-3, a mesma do ChatGPT. Use pip install openai para instalar no seu computador.
 
-openai.api_key = "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"
+openai.api_key = "YOUR_API_KEY"
 
 # Função que recebe um áudio e retorna a transcrição dele.
 def obterTranscricao(audio):
